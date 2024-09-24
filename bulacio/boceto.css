@@ -44,20 +44,22 @@ body img{
 }
 .centrado{
     position: absolute;
-    top: 350px;
+    top: 150px;
     text-align: center;
-    color: black;
+    color: white;
     padding-left: 10%;
 }
 .dentro{
   position: absolute;
-  top: 350px;
+  top: 150px;
   text-align: center;
-  color: black;
+  color: white;
   padding-left: 10%;
 }
 .botones{
-  display: flex; flex-direction: row; justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   padding-top: 2%;
 
 }
@@ -72,9 +74,25 @@ body img{
   font-size: 20px;
   font-weight: bold;
   color: white;
+  box-shadow: inset;
+
+}
+.posicion{
+  display: grid;
+  grid-template-columns: 20% 80% ;
 
 }
 .texto{
-  padding-left: 15%;
-  padding-right: 40%;
+  margin-top: 10%;
+  padding-left: 40%;
+
+}
+.lista_de_espera{
+  margin-top: 10%;
+  margin-left: 35%;
+  padding-left: 3%;
+  padding-right: 10%;
+  background-color: gray;
+  max-height: 18%;
+  max-width: 30%;
 }
