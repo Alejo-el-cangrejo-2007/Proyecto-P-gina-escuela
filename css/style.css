@@ -1,0 +1,196 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-page{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+li .nav-item a{
+  margin-left: 500%;
+}
+
+.page-element{
+  background-color: #dddddd;
+  width: 100%;
+}
+
+.element2{
+  margin-top: 3%;
+}
+
+.element3{
+  margin-top: 3%;
+  width: 100%;
+}
+
+.element-margin{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.element-margin-p{
+  margin-bottom: 3%;
+}
+
+.fondo img{
+width: 100%;
+height: 400px;
+position: relative;
+}
+.navbar-brand {
+
+
+}
+.container-fluid a img{
+  width: 10%;
+  height:5%;
+}
+.navbar {
+  width: 100%;
+
+}
+
+li .nav-item i{
+  left: 200% ;
+}
+.nav-item img{
+  width: 90px;
+  height: 90px;
+  margin-top: 20px;
+  }
+.nav-item a{
+  text-decoration: none;
+  color: inherit;
+
+}
+.container-fluid1{
+  background-color: gray;
+  vertical-align: baseline;
+  display: grid;
+  grid-template-columns: 33% 33% 33% ;
+  padding: 0;
+  margin: 0;
+}
+.centrado{
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    padding-left: 10%;
+}
+.dentro{
+  position: absolute;
+  top: 150px;
+  text-align: center;
+  padding-left: 10%;
+}
+.botones{
+  margin-top: 2%;
+  width: 100%;
+  height: 11%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.botones a{
+  width: 22%;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+.botones a button{
+  width: 100%;
+  height: 100%;
+}
+.botones a button p{
+  margin-top: 5%;
+  font-weight: bold;
+}
+.posicion{
+  display: grid;
+  grid-template-columns: 50% 50% ;
+
+}
+
+.lista_de_espera{
+  padding: 5%;
+  border: solid 2px;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 35%;
+  background-color: gray;
+  max-width: 50%;
+}
+.lista_de_espera h1{
+  color: white;
+}
+.lista_de_espera input{
+  margin-left: 5%;
+  margin-bottom: 2%;
+  border-radius: 10px;
+}
+
+.span{
+  width: 100%;
+}
+
+.cont{
+  position: relative;
+  width: 100%;
+}
+.bar{
+  background-color: black;
+  border-left: solid;
+  left: 13%;
+  top: 21%;
+  position: absolute;
+  height: 150%;
+}
+.barra{
+  left: 15%;
+  top: 10%;
+  position: absolute;
+  height: 15%;
+  width: 89%;
+}
+.card-img-top{
+  width: 100%;
+  height: 300px;
+}
+.colordistinto{
+  border-radius: 10px;
+  background-color: cadetblue;
+  padding: 20px;
+}
+.espacios{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.titulo{
+  text-decoration: none;
+  color: black;
+}
+.texto{
+text-align: center;
+justify-content: center;
+padding: 20px;
+
+
+}
+.texto2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 20px;
+
+}
