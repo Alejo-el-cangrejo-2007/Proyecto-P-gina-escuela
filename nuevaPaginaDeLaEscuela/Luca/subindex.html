@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Noticias</title>
+    <link rel="stylesheet" href="css/styleIndex.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.cdnfonts.com/css/couture" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e814aaac51.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar bg-primary navbar-expand-lg navbar_header" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logoTecnica.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Escuela Técnica N°1 de Grand Bourg
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item"><a class="nav-link" href="#">Ciclo Básico</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Informática</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Electrónica</a></li>
+              <li class="nav-item"><a class="nav-link" href="../Luca/index.html">Noticias</a></li>
+            </ul>
+          </div>
+          <span class="navbar-text">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <a href="https://www.google.com.ar/maps/place/Escuela+Secundaria+T%C3%A9cnica+N.%C2%BA+1+General+Jos%C3%A9+de+San+Mart%C3%ADn/@-34.5007247,-58.7233453,17z/data=!3m1!4b1!4m6!3m5!1s0x95bca2bbef32b5ab:0x1aeacec650a97ef3!8m2!3d-34.5007291!4d-58.7207704!16s%2Fg%2F11c1ny71sz?hl=es&entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D">
+              Batalla de Chacabuco 276, Grand Bourg
+            </a>
+          </span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container mt-5">
+        <h2 class="text-center text-primary mb-4">Últimas Noticias De La Escuela</h2>
+
+        
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <!-- Noticia 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="img/voley.jpeg" class="card-img-top" alt="Noticia 1">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">"2do Puesto en Voley"</h5>
+            <p class="card-text">Sub-19.</p>
+            <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modalNoticia1">Leer más</button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Modal Noticia 1 -->
+  <div class="modal fade" id="modalNoticia1" tabindex="-1" aria-labelledby="modalNoticia1Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalNoticia1Label">Voley</h5>
+          
+        </div>
+        <div class="modal-body">
+          <img src="img/voley.jpeg" class="img-fluid mb-3" alt="Noticia 1">
+          <p>Los chicos de nuestra escuela tecnica que presentaron al equipo sub-19 de voley quedaros en segundo puesto de la competencia en segunda instacia, con un marcador de 2-0.</p>
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+          <!-- Noticia 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="img/fulbo2.jpeg" class="card-img-top" alt="Noticia 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">"2do Puesto en Futbol"</h5>
+            <p class="card-text">Sub-19.</p>
+            <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modalNoticia2">Leer más</button>
+          </div>
+        </div>
+      </div>
+
+
+<!-- Modal Noticia 2 -->
+<div class="modal fade" id="modalNoticia2" tabindex="-1" aria-labelledby="modalNoticia2Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalNoticia2Label">Futbol</h5>
+       
+      </div>
+      <div class="modal-body">
+        <img src="img/fulbo1.jpeg" class="img-fluid mb-3" alt="Noticia 2">
+        <p>Nuestro equipo de futbol dirigido por el profesor Rios quedo en segundo puesto tras un intenso partido que finalizo con el marcador en 1-1 pero lamentablemente 2-1 en los penales.</p>
+        <!-- Añade más contenido según sea necesario -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+          <!-- noticia -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="img/handball.jpeg" class="card-img-top" alt="noticia">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">"2do Puesto en Handball"</h5>
+            <p class="card-text">sub-14.</p>
+            <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modalNoticia3">Leer más</button>
+          </div>
+        </div>
+      </div>
+
+
+<!-- Modal noticia -->
+<div class="modal fade" id="modalNoticia3" tabindex="-1" aria-labelledby="modalNoticia3Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalNoticia3Label">Handball</h5>
+        
+      </div>
+      <div class="modal-body">
+        <img src="img/handball.jpeg" class="img-fluid mb-3" alt="noticia">
+        <p>Los chicos de 2do año tanto masculino como femenino sub-14 compitieron en el torneo de handball y quedaron primeros en una primera instancia, en la final se cruzaron contra la escuela XXXXXXX y fueron derrotados por la diferencia minima.</p>
+        <!-- Añade más contenido según sea necesario -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+           <!-- Noticia 4 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="img/fulbo1.jpeg" class="card-img-top" alt="Noticia 4">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">"1er Puesto en Futbol"</h5>
+            <p class="card-text">sub-19.</p>
+            <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modalNoticia4">Leer más</button>
+          </div>
+        </div>
+      </div>
+
+
+<!-- Modal Noticia 4 -->
+<div class="modal fade" id="modalNoticia4" tabindex="-1" aria-labelledby="modalNoticia4Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalNoticia3Label">Futbol</h5>
+        
+      </div>
+      <div class="modal-body">
+        <img src="img/fulbo1.jpeg" class="img-fluid mb-3" alt="noticia">
+        <p>Los chicos del equipo de futbol sub-19 arrasaron en su bombo de liga y consiguieron quedar invictos para lograr el primer puesto y la clasificacion a la final.</p>
+        <!-- Añade más contenido según sea necesario -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+          <!-- noticia -->
+          <div class="col">
+            <div class="card">
+              <img src=" " class="card-img-top" alt="noticia">
+              <div class="card-body">
+                <h5 class="card-title">noticia</h5>
+                <p class="card-text">Resumen de la noticia..</p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- noticia -->
+          <div class="col">
+            <div class="card">
+              <img src=" " class="card-img-top" alt="noticia">
+              <div class="card-body">
+                <h5 class="card-title">noticia</h5>
+                <p class="card-text">Resumen de la noticia..</p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- noticia -->
+          <div class="col">
+            <div class="card">
+              <img src=" " class="card-img-top" alt="noticia">
+              <div class="card-body">
+                <h5 class="card-title">noticia</h5>
+                <p class="card-text">Resumen de la noticia..</p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- noticia -->
+          <div class="col">
+            <div class="card">
+              <img src=" " class="card-img-top" alt="noticia">
+              <div class="card-body">
+                <h5 class="card-title">noticia</h5>
+                <p class="card-text">Resumen de la noticia..</p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- noticia -->
+          <div class="col">
+            <div class="card">
+              <img src=" " class="card-img-top" alt="noticia">
+              <div class="card-body">
+                <h5 class="card-title">noticia</h5>
+                <p class="card-text">Resumen de la noticia..</p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- noticia -->
+          <div class="col">
+            <div class="card">
+              <img src=" " class="card-img-top" alt="noticia">
+              <div class="card-body">
+                <h5 class="card-title">noticia</h5>
+                <p class="card-text">Resumen de la noticia..</p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- noticia -->
+          <div class="col">
+            <div class="card">
+              <img src=" " class="card-img-top" alt="noticia">
+              <div class="card-body">
+                <h5 class="card-title">noticia</h5>
+                <p class="card-text">Resumen de la noticia..</p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- noticia -->
+          <div class="col">
+            <div class="card">
+              <img src=" " class="card-img-top" alt="noticia">
+              <div class="card-body">
+                <h5 class="card-title">noticia</h5>
+                <p class="card-text">Resumen de la noticia..</p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Puedes agregar más noticias siguiendo el mismo patrón -->
+        </div>
+      </div>
+    </main>
+  <br><br>
+    <footer class="bg-primary text-white text-center py-4">
+      <div class="container">
+        <p>&copy; 2024 E.E.S.T. N°1. Todos los derechos reservados.</p>
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Contacto</h5>
+            <p><i class="bi bi-telephone"></i> Teléfono: 02320-480129</p>
+            <p><i class="bi bi-envelope"></i> Email: contacto@ees1.edu.ar</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Ubicación</h5>
+            <p><i class="bi bi-geo-alt"></i><a href="https://www.google.com.ar/maps/place/Escuela+Secundaria+T%C3%A9cnica+N.%C2%BA+1+General+Jos%C3%A9+de+San+Mart%C3%ADn/@-34.5007247,-58.7233453,17z/data=!3m1!4b1!4m6!3m5!1s0x95bca2bbef32b5ab:0x1aeacec650a97ef3!8m2!3d-34.5007291!4d-58.7207704!16s%2Fg%2F11c1ny71sz?hl=es&entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D">
+              Batalla de Chacabuco 276, Grand Bourg
+            </a>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h5>Redes Sociales</h5>
+            <p>
+              <a href="https://www.facebook.com/tecnica1grandbourg/?locale=es_LA" class=""><i class="bi bi-facebook"></i> Facebook</a><br>
+              <a href="https://x.com/EscuelaTec1GB" class=""><i class="bi bi-twitter"></i> Twitter</a><br>
+              <a href="https://www.instagram.com/tecnica1grandbourg/?hl=es" class=""><i class="bi bi-instagram"></i> Instagram</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
