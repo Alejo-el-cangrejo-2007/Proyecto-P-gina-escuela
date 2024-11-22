@@ -20,8 +20,28 @@ footer{
 }
 
 .blur {
-  filter: blur(10px);
+  filter: blur(10px) brightness(50%);
 }
 .couture{
   font-family: 'Couture', sans-serif;
 }
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+
+.card.mb-5 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.modal-body img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.card-title, .card-text, .modal-title, .modal-body {
+  color: #222;
+ }
