@@ -42,14 +42,7 @@ footer{
   object-fit: cover;
 }
 
-.card-title, .modal-title, .modal-body {
+.card-title,.card-text, .modal-title, .modal-body {
   color: #222;
+
  }
- .card-text{
-   color: white;
- }
- @media (max-width: 576px) {
-  .navbar-text {
-    font-size: 12px;
-  }
-}
